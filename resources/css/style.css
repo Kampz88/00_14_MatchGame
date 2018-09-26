@@ -1,0 +1,64 @@
+html{
+  font-size: 14px;
+}
+
+body{
+  background-color: rgb(255, 242, 242);
+  font-family: "work sans", sans-serif;
+  min-width: 400px;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: rgb(32, 64, 86);
+  padding-bottom: 0.5rem;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 1rem;
+  color: rgb(32, 64, 86);
+  padding-top: 1rem;
+}
+
+.button h2{
+    text-decoration: underline;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+p{
+  color: rgb(74, 74, 74);
+}
+
+.main{
+  padding: 5.25rem 2rem;
+}
+
+#instructions{
+  padding: 0 2rem;
+}
+
+#game{
+  padding: 0 2rem;
+}
+
+.card{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 12.5rem;
+  background-color: rgb(32, 64, 86);
+  border: 4px solid #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 7rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+.card-blocked{
+  background-color: rgb(153, 153, 153);
+  color: rgb(204, 204, 204);
+}
